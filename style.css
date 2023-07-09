@@ -1,0 +1,228 @@
+/*//////////////////////////////////////////*/
+body {
+    margin:auto;
+    font-family: "Georgia";
+}
+
+body > section.container-h{
+    background: url("images/viber_image_2023-07-04_11-27-08-713.jpg")no-repeat;
+    height: 624px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+    height: 180px;
+}
+.contact ul, .menu ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.contact ul li, .menu ul li{
+    height: 40px;
+}
+.contact ul li a, .menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+body > header > div.contact > ul > li:nth-child(1){
+    background: url("images/viber_image_2023-07-05_18-40-47-445.jpg")no-repeat;
+    background-size: contain;
+}
+body > header > div.contact > ul > li:nth-child(2){
+    background: url("images/viber_image_2023-07-05_18-40-47-355.jpg")no-repeat;
+    background-size: contain;
+}
+body > header > div.contact > ul > li:nth-child(3){
+    background: url("images/viber_image_2023-07-05_18-40-47-532.jpg")no-repeat;
+    background-size: contain;
+}
+body > header > div.contact > ul > li:nth-child(4){
+    background: url("images/viber_image_2023-07-05_18-51-27-108.jpg")no-repeat;
+    background-size: contain;
+}
+.contact li a span {
+    color: transparent;
+    padding-top: 10px;
+    display: block;
+}
+body > section > div.hello{
+    width: 260px;
+    margin-left: 403px;
+    margin-top: -370px;
+    text-align: justify;
+}
+
+.centar p:first-child{
+    font-family: "Lucida Handwriting";
+    font-size: 1.3em;
+    margin-left: 92px;
+    margin-top: 35px;
+}
+body > header > div.centar > p:nth-child(2){
+    font-style: italic;
+    margin-top: -19px;
+    margin-left: 157px;
+}
+
+body > header > div.centar{
+    background: url("images/viber_image_2023-07-05_19-00-06-542.jpg")no-repeat;
+    background-size: cover;
+    width: 340px;
+    height: 110px;
+    margin-left: -15px;
+}
+
+.menu ul li{
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+
+.menu ul{
+    margin-right: 20px;
+}
+/*///////////////////PRVA STRANA///////////////////////*/
+#pocetna{
+    display: block;
+    width: 300px;
+    margin-left: 690px;
+}
+body > section.container-h > h1{
+    margin-left: 620px;
+    margin-bottom: 85px;
+    font-size: 2.5em;
+}
+
+/*///////////////////FRIENDS&FAMILY///////////////////////*/
+
+div.pozadinska1{
+    background: url("images/viber_image_2023-07-04_08-09-12-446.jpg")no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 744px;
+}
+.spoeni1, .spoeni2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.spoeni1{
+    padding-top: 153px;
+}
+.spoeni2{
+    padding-top: 50px;
+}
+.spoeni3 ul{
+    display: flex;
+    justify-content: center;
+}
+
+body > section > div.gallery img, .spoeni3 img{
+    width: 300px;
+    height: 350px;
+    display:block;
+}
+
+body > section.container-f > h1{
+    margin-left: 485px;
+    margin-bottom: 30px;
+    font-size: 2.5em;
+}
+
+body > section > div.spoeni3 > h1{
+    margin-left: 260px;
+    padding-top: 50px;
+    font-size: 2.5em;
+}
+body > section > div.pozadinska1 > blockquote{
+    color: white;
+    padding-top: 565px;
+    font-style: italic;
+    font-size: 1.5em;
+}
+div.spoeni3{
+    background: url("images/viber_image_2023-07-06_09-56-25-519.jpg")no-repeat;
+    background-size: cover;
+    margin-top: 150px;
+    padding-top: 17px;
+    height: 600px;
+}
+.spoeni3 ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+/*////////////////////FOOD//////////////////////*/
+#kraj{
+    background: url("images/viber_image_2023-07-04_08-09-11-674-h.jpg")no-repeat;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+
+div.desen img{
+    width: 320px;
+    display: block;
+    height: 400px;
+}
+.desen{
+    display: flex;
+    flex-direction: column;
+    margin-top: -1110px;
+    margin-left: 1000px;
+    justify-content: space-between;
+    height: 1270px;
+}
+.lev{
+    display: flex;
+    flex-direction: column;
+    margin-left: 665px;
+    justify-content: space-between;
+    height: 1270px;
+    color: white;
+    text-align: justify;
+    font-size: 1.2em;
+}
+.lev div{
+    width: 300px;
+    height: 400px;
+    margin-top: 140px;
+}
+
+/*///////////////////PLACES///////////////////////*/
+.places img{
+    height: 400px;
+    width: 300px;
+}
+.places div.sliki1, .places div.sliki2,
+body > section > div.f2 > ul, body > section > div.f1 > ul{
+    display: flex;
+    justify-content: space-around;
+}
+.places ul{
+    width: 1400px;
+    padding: 0;
+}
+.places ul li{
+    width: 300px;
+    text-align: justify;
+    list-style: none;
+    margin-top: -20px;
+}
+.places ul li h1{
+    font-size: 1.5em;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+}
+body > footer > p{
+    margin-top:-35px;
+}
+/*/////////////DEKORACII///////////////*/
+body > header > div.menu > ul li a:hover{
+    border-bottom: 2px solid black;
+    padding:5px;
+}
+.lev h1{
+    border-bottom: 2px solid white;
+    padding: 5px;
+}
